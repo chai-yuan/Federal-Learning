@@ -1,0 +1,6 @@
+{
+    "mode": "normal",
+    "learning rate": 0.01,
+    "batch size": 16,
+    "epoch": 2
+}
