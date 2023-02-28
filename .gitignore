@@ -1,4 +1,4 @@
 pytorch/*
 
-
+*.jpg
 *.pyc
