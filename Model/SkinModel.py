@@ -14,7 +14,3 @@ class SkinModel(torch.nn.Module):
 
     def forward(self, x):
         return self.cnn(x)
-
-
-if __name__ == "__main__":
-    test = SkinModel()
