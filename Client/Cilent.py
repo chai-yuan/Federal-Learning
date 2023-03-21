@@ -3,11 +3,11 @@ from torch.utils.data import Dataset
 
 
 class Cilent:
-    def __init__(self, data: Dataset, model: torch.nn.Module) -> None:
+    def __init__(self, data: Dataset) -> None:
         self.dataset = data
-        self.model = model
+        self.model = None
 
-    def updataModel(self, model: torch.nn.Module):
+    def updataCilentModel(self, model: torch.nn.Module):
         self.model = model
 
     def getModel(self) -> torch.nn.Module:
